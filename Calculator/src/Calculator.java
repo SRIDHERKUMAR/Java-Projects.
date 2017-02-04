@@ -2,7 +2,11 @@ import java.lang.Math;
 
 public class Calculator extends javax.swing.JFrame {
     
-    private boolean zerodisp;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private boolean zerodisp;
     private boolean decdisp;
     private boolean dgrrad;
     private boolean sh;
@@ -17,7 +21,9 @@ public class Calculator extends javax.swing.JFrame {
         initComponents();
     }
 
-    @SuppressWarnings("unchecked")
+    
+    
+    
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
